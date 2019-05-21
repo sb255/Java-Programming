@@ -1,3 +1,4 @@
+/*This package is present in every java class*/
 import java.lang.*; 
 
 public class Addition{
@@ -10,6 +11,7 @@ public static int addition(int a,int b){
   return (a+b);
  
   }
+
 
 public static void main(String args[]){
 
