@@ -2,6 +2,8 @@
 
 ## Inheritance and objects references:
 
+See the CASES mentioned in the main class!
+
 ```
 
 import java.util.*;
@@ -55,9 +57,9 @@ public class Test extends PreTest {
  
 }
 
-/*NOTE: Always pay attention to new Test() or the new Class(), it will tell you which the class
+/*---- NOTE: Always pay attention to new Test() or the new Class(), it will tell you which the class
 that object is going to create an image, then no matter which class' object reference it has, 
-it is only going to have methods of the class mentioned with new keyword*/
+it is only going to have methods of the class mentioned with new keyword ----*/
 
 
 ``` 
