@@ -40,11 +40,11 @@ public class Test extends PreTest {
         
     /*CASE 2*/
         PreTest obj3 = new PreTest();
-        //Test obj4 = (PreTest) obj3;  /*Not Valid*/
+        //Test obj4 = (PreTest) obj3;  /*--Not Valid--*/
         
         
     /*CASE 3*/
-        //Test obj5 = new PreTest();   /*Not Valid*/    
+        //Test obj5 = new PreTest();   /*--Not Valid--*/    
         
         
         
@@ -52,6 +52,12 @@ public class Test extends PreTest {
         PreTest obj6 = new Test(); 
         obj6.callMe();
     /*----OUTPUT: Method of SUB CLASS is called----*/
+
+
+   /*CASE 5*/
+        PreTest obj7 = new PreTest(); 
+        //Test obj8 = (PreTest) obj7; /*--Even subclass object can not refer to a super class object--*/  
+ 
         
     }
  
