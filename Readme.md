@@ -63,10 +63,12 @@ public class Test extends PreTest {
  
 }
 
-/*---- NOTE: Always pay attention to new Test() or the new Class(), it will tell you which the class
-that object is going to create an image, then no matter which class' object reference it has, 
+/*---- NOTE: Always pay attention to new Test() or the new Class(), it will tell you which class
+that object is going to create an image of, then no matter which class' object reference it has, 
 it is only going to have methods of the class mentioned with new keyword ----*/
 
+
+/*-- PreTest obj = new Test() (Then blue print of Test Class will be created) --*/
 
 ``` 
 
