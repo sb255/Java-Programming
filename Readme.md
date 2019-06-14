@@ -68,7 +68,7 @@ that object is going to create an image of, then no matter which class' object r
 it is only going to have methods of the class mentioned with new keyword ----*/
 
 
-/*-- PreTest obj = new Test() (Then blue print of Test Class will be created) --*/
+/*-- PreTest obj = new Test(); (Then blue print of Test Class will be created) --*/
 
 ``` 
 
