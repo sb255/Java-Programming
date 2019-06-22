@@ -72,3 +72,81 @@ it is only going to have methods of the class mentioned with new keyword ----*/
 
 ``` 
 
+## Comparators in Java: 
+
+```
+import java.util.*;
+
+class TestTaker{
+	public int id;
+        String name; 
+	public int marks;
+	public TestTaker(int id, String name, int marks) {
+            this.id = id;
+            this.name = name; 
+            this.marks = marks;
+	}
+	public int getId() {
+            return id;
+	}
+	public String getName() {
+            return name;
+	}
+	public int getMarks() {
+            return marks;
+	}
+}
+
+
+public class Test
+{
+	public static void main(String[] args){
+		
+		
+            List<TestTaker> list = new ArrayList<TestTaker>();
+            
+            TestTaker obj1 = new TestTaker(1, "David", 91);
+            TestTaker obj2 = new TestTaker(2, "Mike", 93);
+            TestTaker obj3 = new TestTaker(3, "John", 95);
+            TestTaker obj4 = new TestTaker(4, "Sky", 95);
+            TestTaker obj5 = new TestTaker(5, "Leo", 99);
+            
+            list.add(obj1);
+            list.add(obj2);
+            list.add(obj3);
+            list.add(obj4);
+            list.add(obj5);
+            
+            Collections.sort(list,new MarksComparator());  
+
+            for(TestTaker t : list){
+                System.out.println(t.getId()+" "+t.getName()+" "+t.getMarks()); 
+            }
+
+	}
+}
+
+class MarksComparator implements Comparator{  
+    public int compare(Object obj1,Object obj2){  
+        TestTaker t1=(TestTaker)obj1;  
+        TestTaker t2=(TestTaker)obj2;  
+  
+        if(t1.marks==t2.marks)  
+            return t1.name.compareTo(t2.name);   
+        else if(t1.marks>t2.marks)  
+            return -1;  
+        else  
+            return 1;  
+    }   
+}
+
+ 
+class NameComparator implements Comparator{  
+    public int compare(Object obj1,Object obj2){  
+        TestTaker t1=(TestTaker)obj1;  
+        TestTaker t2=(TestTaker)obj2;  
+  
+    return t1.name.compareTo(t2.name);  
+    }  
+} 
+```
