@@ -150,3 +150,45 @@ class NameComparator implements Comparator{
     }  
 } 
 ```
+## Ways to write Comparatores in Java: 
+
+```
+/*---- Approach 1 ----*/            
+             
+Collections.sort(list, new Comparator() {
+
+    public int compare(Object obj1,Object obj2){  
+        TestTaker t1=(TestTaker)obj1;  
+        TestTaker t2=(TestTaker)obj2;  
+  
+        if(t1.marks==t2.marks)  
+            return t1.name.compareTo(t2.name);   
+        else if(t1.marks>t2.marks)  
+            return -1;  
+        else  
+            return 1;  
+        }});
+
+
+
+/*---- Approach 2 ----*/     
+
+Collections.sort(list,new MarksComparator());
+
+/*-- Then write a separate Class --*/
+
+class MarksComparator implements Comparator{  
+    public int compare(Object obj1,Object obj2){  
+        TestTaker t1=(TestTaker)obj1;  
+        TestTaker t2=(TestTaker)obj2;  
+  
+        if(t1.marks==t2.marks)  
+            return t1.name.compareTo(t2.name);   
+        else if(t1.marks>t2.marks)  
+            return -1;  
+        else  
+            return 1;  
+    }   
+}
+```
+
