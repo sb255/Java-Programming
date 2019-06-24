@@ -150,7 +150,7 @@ class NameComparator implements Comparator{
     }  
 } 
 ```
-## Ways to write Comparatores in Java: 
+## Ways to write Comparators in Java: 
 
 ```
 /*---- Approach 1 ----*/            
