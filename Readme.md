@@ -154,6 +154,8 @@ class NameComparator implements Comparator{
 
 ```
 /*---- Approach 1 ----*/            
+
+*This is Also known as Anonymous comparator*
              
 Collections.sort(list, new Comparator() {
 
@@ -175,7 +177,7 @@ Collections.sort(list, new Comparator() {
 
 Collections.sort(list,new MarksComparator());
 
-/*-- Then write a separate Class --*/
+*Then write a separate Class*
 
 class MarksComparator implements Comparator{  
     public int compare(Object obj1,Object obj2){  
