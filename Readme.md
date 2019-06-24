@@ -150,12 +150,14 @@ class NameComparator implements Comparator{
     }  
 } 
 ```
-## Ways to write Comparators in Java: 
+## Ways to write Comparators in Java:
+
+*Approach 1 is also known as Anonymous comparator* 
 
 ```
-/*---- Approach 1 ----*/            
+/*---- Approach 1 ----*/    
 
-**This is also known as Anonymous comparator**
+/*-- Using Anonymous comparators --*/        
              
 Collections.sort(list, new Comparator() {
 
@@ -177,7 +179,7 @@ Collections.sort(list, new Comparator() {
 
 Collections.sort(list,new MarksComparator());
 
-**Then write a separate Class**
+/*-- Then write a separate Class --*/
 
 class MarksComparator implements Comparator{  
     public int compare(Object obj1,Object obj2){  
