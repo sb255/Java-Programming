@@ -1,8 +1,8 @@
 # Java Operations
 
-*Inheritance and objects references:*
+## Inheritance and objects references:
 
-See the CASES mentioned in the main class!
+*See the CASES mentioned in the main class!*
 
 ```
 
