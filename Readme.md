@@ -1,4 +1,4 @@
-# Java-Operations
+# Java Operations
 
 ## *Inheritance and object references:*
 
