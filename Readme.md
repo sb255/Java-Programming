@@ -72,7 +72,7 @@ it is only going to have methods of the class mentioned with new keyword ----*/
 
 ``` 
 
-## Comparators in Java: 
+## *Comparators in Java:* 
 
 ```
 import java.util.*;
@@ -150,7 +150,7 @@ class NameComparator implements Comparator{
     }  
 } 
 ```
-## Ways to write Comparators in Java:
+## *Ways to write Comparators in Java:*
 
 *Approach 1 is also known as Anonymous comparator* 
 
