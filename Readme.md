@@ -1,6 +1,6 @@
 # Java Operations
 
-## Inheritance and object references:
+## *Inheritance and object references:*
 
 *See the CASES mentioned in the main class!*
 
