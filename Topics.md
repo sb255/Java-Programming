@@ -1,6 +1,11 @@
 ## *Covering all the topics of core Java programming*
 
-* Inheroitance
+* Inheritance
 * Abstraction
 * Polymorphism
-* Encapsulation  
+* Encapsulation
+.
+.
+.
+.
+......  
