@@ -74,7 +74,7 @@ it is only going to have methods of the class mentioned with new keyword ----*/
 
 ## *Comparators in Java:* 
 
-```
+```java
 import java.util.*;
 
 class TestTaker{
@@ -154,7 +154,7 @@ class NameComparator implements Comparator{
 
 *Approach 1 is also known as Anonymous comparator* 
 
-```
+```java
 /*---- Approach 1 ----*/    
 
 /*-- Using Anonymous comparators --*/        
@@ -198,7 +198,7 @@ class MarksComparator implements Comparator{
 
 ## *Generics in Java:*
 
-```
+```java
 public class Test{
     
     public static <E extends Number> int addObjects(E a, E b){
