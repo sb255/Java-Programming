@@ -216,7 +216,7 @@ public class Test{
         
 }
 ```
-```
+```java
 public class Test{
     
     public static <E extends Comparable> E addObjects(E a, E b){
