@@ -196,3 +196,23 @@ class MarksComparator implements Comparator{
 }
 ```
 
+## *Generics in Java: *
+
+```
+public class Test{
+    
+    public static <E extends Number> int addObjects(E a, E b){
+            
+        return (a.intValue() + b.intValue());
+        /* intValue is a methos of Number class */
+            
+    }
+        
+    public static void main(String[] args){
+            
+        System.out.println(addObjects(10, 20));
+            
+    }
+        
+}
+```
