@@ -196,7 +196,7 @@ class MarksComparator implements Comparator{
 }
 ```
 
-## *Generics in Java: *
+## *Generics in Java:*
 
 ```
 public class Test{
