@@ -4,7 +4,7 @@
 
 *See the CASES mentioned in the main class!*
 
-```
+```java
 
 import java.util.*;
 
