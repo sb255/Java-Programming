@@ -1,5 +1,19 @@
 # Java-Operations
 
+## *valueOf() and parseInt() of Java*
+
+#### *valueOf() returns an instance of Integer class, while parseInt() return a variable of int data type!*
+
+```java
+
+String s = "100"; 
+
+Integer k = Integer.valueOf(s);
+
+int kk = Integer.parseInt(s);
+
+```
+
 ## *Inheritance and object references:*
 
 *See the CASES mentioned in the main class!*
