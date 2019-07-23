@@ -2,7 +2,7 @@
 
 ## *int to String conversion in Java*
 
-### Methods valueOf() and toString() can be used to convert int data type value into a String object
+### *Methods valueOf() and toString() can be used to convert int data type value into a String object*
 
 ```java
 int x = 100; 
