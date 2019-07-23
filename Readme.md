@@ -1,6 +1,21 @@
 # Java-Operations
 
-## *valueOf() and parseInt() of Java*
+## *int to String conversion in Java*
+
+### Methods valueOf() and toString() can be used to convert int data type value into a String object
+
+```java
+int x = 100; 
+
+String s = String.valueOf(100); 
+
+//OR
+
+String s = Integer.toString(100);
+
+```
+
+## *String to int conversion in Java*
 
 #### *valueOf() returns an instance of Integer class, while parseInt() return a variable of int data type!*
 
@@ -9,6 +24,8 @@
 String s = "100"; 
 
 Integer k = Integer.valueOf(s);
+
+//OR
 
 int kk = Integer.parseInt(s);
 
