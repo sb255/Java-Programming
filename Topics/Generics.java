@@ -1,29 +1,21 @@
-import java.util.*;
+/**
+ * Comparing values of two objects in a Java generic class
+ */
+public class Generics {
 
-//Comparying values of two objects in a Java generic class
-
-public class Test{
-    
-    public static <E extends Comparable> E addObjects(E a, E b){
-            
-        if(a.compareTo(b)>0)
-            return a; 
-        
-        
-        if(a.compareTo(b)<0)
-            return b;
-        
-        else
+    @SuppressWarnings("unchecked")
+    private static <E extends Comparable> E compareObjects(E a, E b) {
+        if (a.compareTo(b) > 0)
             return a;
-            
+        else
+            return b;
     }
-        
-    public static void main(String[] args){
-            
-        System.out.println("The larger value is: "+addObjects("Hello", "Jack"));
-            
+
+    public static void main(String[] args) {
+        String a = "Hello";
+        String b = "Jack";
+
+        /* Out */
+        System.out.println("The larger value is: " + compareObjects(a, b)); // The larger value is: Jack
     }
-        
 }
-
-
