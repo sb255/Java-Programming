@@ -109,7 +109,10 @@ public class Test extends PreTest {
 
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0ea7e8d10b006d0f9c36fe97a28542e0670133a3
 ```
 
 > NOTE: (Require correction) Always pay attention to new Test() or the new Class(), it will tell you which class
