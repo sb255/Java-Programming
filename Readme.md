@@ -108,16 +108,7 @@ public class Test extends PreTest {
     }
 
 }
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 0ea7e8d10b006d0f9c36fe97a28542e0670133a3
 ```
-
-> NOTE: (Require correction) Always pay attention to new Test() or the new Class(), it will tell you which class
-that object is going to create an image of, then no matter which class' object reference it has,
-it is only going to have methods of the class mentioned with new keyword.
 
 ## *Comparators in Java:*
 
@@ -287,23 +278,4 @@ public class Test{
     }
 
 }
-```
-
-## *Regular Expressions in Java:*
-
-
-| SN | Regular Expression | Description
-| :----: | :---: | :---:
-| 1 | `[A-Za-z]` | It matches all the uppercase and lowercase characters
-| 2 | `[-+.^:,]` | It matches all the special characters
-| 3 | `[.]` | It matches with a character of any kind
-
-
-## *Lambdas in Java programming:*
-
-*Printing with characters with the help of Java Stream:*
-
-```java
-int[] arr = {1,2,3,4,5,6,7,8,9};
-Arrays.stream(arr).map(i->i*i).forEach(System.out::println);
 ```
